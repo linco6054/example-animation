@@ -1,0 +1,8 @@
+section {
+  min-height: 100vh;
+  max-width: 100%;
+  position: relative;
+}
+.monkey {
+  height: 100px;
+}

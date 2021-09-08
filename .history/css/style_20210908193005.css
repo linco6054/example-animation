@@ -1,0 +1,27 @@
+section {
+  min-height: 100vh;
+  max-width: 100%;
+  position: relative;
+}
+.monkey {
+  position: absolute;
+  height: 400px;
+  top: -150px;
+  left: -150px;
+  animation-name: monkey;
+  animation-duration: 3s;
+}
+@keyframes monkey {
+  0% {
+    transform: rotate(-120deg);
+    left: -300px;
+  }
+  50% {
+    transform: rotate(0);
+    left: -150px;
+  }
+}
+.paper-clip {
+  position: absolute;
+  transform: rotate(-);
+}

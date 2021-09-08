@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  min-height: 300vh;
+  position: relative;
+}
+nav {
+  background-color: red;
+  height: 10vh;
+  top: 10vh;
+  position: sticky;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: black;
+}

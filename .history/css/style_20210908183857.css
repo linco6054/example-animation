@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  min-height: 300vh;
+  po
+}
+nav {
+  background-color: red;
+  height: 10vh;
+}
